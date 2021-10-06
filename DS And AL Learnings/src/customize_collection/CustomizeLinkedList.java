@@ -18,7 +18,7 @@ public class CustomizeLinkedList {
 		stringLst.add("C");
 		stringLst.add("D");
 		
-		System.out.println(stringLst.get(0));
+		System.out.println(stringLst);
 		
 		System.out.println("Index Value : " + stringLst.get(0));
 		
@@ -27,6 +27,16 @@ public class CustomizeLinkedList {
 }
 
 class LinkedList<E>{
+	
+	static class Node<E> {
+		
+		Node<E> next;
+		E data;
+
+		public Node(E data) {
+			this.data = data;
+		}
+	}
 	
 	Node<E> headNode;
 	Node<E> lastNode;
@@ -90,12 +100,3 @@ class LinkedList<E>{
 	
 }
 
-class Node<E> {
-	
-	Node<E> next;
-	E data;
-
-	public Node(E data) {
-		this.data = data;
-	}
-}
