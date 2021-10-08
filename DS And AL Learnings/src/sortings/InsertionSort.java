@@ -4,7 +4,7 @@ public class InsertionSort {
 	
 	public static void main(String[] args) {
 		
-		int arr[] = { 12, 11, 13, 5, 6 };
+		int arr[] = {9,2,6,4,3,5,1};
 		arr = insertionSort(arr);
 
 		for (int i : arr) {
