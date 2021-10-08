@@ -77,6 +77,10 @@ public class QuickSort {
 
 
 /*
+ * 	Time Complexity : 
+ * 			O(n log n) Best Case  : Assume always partition take from middle, 
+ *          O(n2) Worst case : Already sort sorted array
+ * 
  * https://www.youtube.com/watch?v=7h1s2SojIRw&ab_channel=AbdulBari
  * https://www.youtube.com/watch?v=SLauY6PpjW4&t=7s&ab_channel=HackerRank
  */

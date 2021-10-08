@@ -37,8 +37,10 @@ public class InsertionSort {
 
 
 /*
-Time Complexity: O(n^2)
-Auxiliary Space: O(1)
+Time Complexity: 
+	O(n) Best case : Already sorted
+	O(n^2) Worst case : Already sorted in reverse order
+	O(n^2) Average case
 Boundary Cases: Insertion sort takes maximum time to sort if elements are sorted in reverse order.
 And it takes minimum time (Order of n) when elements are already sorted.
 Algorithmic Paradigm: Incremental Approach
