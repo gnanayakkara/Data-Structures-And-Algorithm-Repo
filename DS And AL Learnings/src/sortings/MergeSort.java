@@ -3,6 +3,7 @@ package sortings;
 public class MergeSort {
 
 	static int moves = 0;
+
 	public static void main(String[] args) {
 
 		int array[] = new int[] { 9, 2, 6, 4, 3, 5, 1 };
