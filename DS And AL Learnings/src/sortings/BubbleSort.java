@@ -34,6 +34,7 @@ public class BubbleSort {
 					moves++;
 				}
 			}
+			
 			lastUnsorted--;//Last one is the biggest one
 			
 			for (int a : array) {
