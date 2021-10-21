@@ -11,7 +11,6 @@ public class Heap {
 	static int[] items = new int[capacity];
 	
 	public static void main(String[] args) {
-		items = new int[] { 9, 2, 6, 4, 3, 5, 1 };
 		add(9);
 		add(2);
 		add(6);
