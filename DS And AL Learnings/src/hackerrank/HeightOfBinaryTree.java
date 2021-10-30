@@ -4,6 +4,10 @@ package hackerrank;
  * 29 Oct 2021
  */
 
+/*
+ * https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem
+ */
+
 public class HeightOfBinaryTree {
 
 	public static void main(String[] args) {
@@ -62,7 +66,3 @@ public class HeightOfBinaryTree {
 		}
 	}
 }
-
-/*
- * https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem
- */
