@@ -1,4 +1,4 @@
-package solving;
+package Solving;
 
 /*
  * 30 Oct 2021
