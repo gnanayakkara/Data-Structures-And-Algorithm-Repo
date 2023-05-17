@@ -1,4 +1,4 @@
-package solving;
+package Solving;
 
 
 import java.util.ArrayList;
